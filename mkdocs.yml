@@ -3,8 +3,10 @@ site_author: 'lgascon1'
 nav:
   - Home: index.md
   - About: about.md
-  - 'Contacts': contact.md
-  - 'Room visits': visit.md 
+  - 'Room Access':
+    - 'Contacts': contact.md
+    - 'Door codes': doorCodes.md
+  - 'Room visits': visit.md
   - 'Data Entry': 
     - 'Staging data template': excel.md
     - 'Copying/Importing to Access': access.md
