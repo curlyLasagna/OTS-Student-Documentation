@@ -1,7 +1,7 @@
 # Personal guide for OTS students
 This guide covers what <b>I</b> did during my time as a student employee.   
 This guide doesn't cover everything that a student employee is responsible for.  
-I hope you can find this guide useful. I ran out of things to do and this was one thing I could do that was meaningful   
+I hope you can find this guide useful. I ran out of things to do and this was one thing I could do that was productive   
 
 Made using [MkDocs](https://www.mkdocs.org/)
 
@@ -19,4 +19,9 @@ Made using [MkDocs](https://www.mkdocs.org/)
 
 ## Setting up
 `$ cd OTS_StudentGuide `  
+### Change python environment
 `$ pipenv shell`
+### Installing dependencies
+`$ pipenv install`  
+### Servin' it up at your local function
+`$ mkdocs serve`
