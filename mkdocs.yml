@@ -14,25 +14,26 @@ nav:
   - 'Imaging a computer': imaging.md
   - 'Vacuuming projectors': vacuum.md
 
-# repo_name: 'Github'
-# theme:
-#   name: material
-#   palette:
+repo_name: 'Github'
+theme:
+  name: material
+  logo: 'img/TU-logo.png'
 
-#   # primary: amber
-#   # Light mode
-#   - scheme: default
-#     toggle:
-#     icon: material/toggle-switch
-#     name: Switch to dark mode 
+  # primary: amber
+  # Light mode
+  # - scheme: default
+  #   toggle:
+  #   icon: material/toggle-switch
+  #   name: Switch to dark mode 
 
-#   # Dark mode
-#   - scheme: slate
-#     toggle: 
-#     icon: material/toggle-switch-off-outline
-#     name: Switch to light mode
+  # # Dark mode
+  # - scheme: slate
+  #   toggle: 
+  #   icon: material/toggle-switch-off-outline
+  #   name: Switch to light mode
 
-# markdown_extensions:
-#   - attr_list
-#   - codehilite
+markdown_extensions:
+  - attr_list
+  - codehilite
+  - mdx_truly_sane_lists
     

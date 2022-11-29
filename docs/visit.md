@@ -1,10 +1,10 @@
 ## Before visiting a room
 1. Check [25Live](https://25live.collegenet.com/pro/towson#!/home/search/location/list) to see if there's a class currently in session
-- Last thing you want to do is walk into a class. Don't be that guy/gal
+      Last thing you want to do is walk into a class. Don't be that guy/gal
 - Some buildings such as Center for the Arts, don't list their schedule on 25Live
 2. Take a picture of the wall plate indicating the room number
 - Used as a starting point
-3. Take a picture of the lock for the room
+3. Take a picture of the lock for the room before coming in or after you leave
 - Helps with figuring out how to acccess a room
 
 ## Collections
@@ -24,13 +24,13 @@
     - Microphones 
 
 ### Projectors 
-Take a picture of: 
-  - Front with the lens
-  - Side with the cables plugged in
-  - The bottom side with the branding
-Example:  
-![](img/Collections/COLLECTIONS_LA3118_View%20From%20Front.jpg){: height='150px' width='150px'}
-
+Take a picture of:  
+#### Front with the lens
+![](img/Components/ITEMS_DATADISP_PANASONIC_PT-RZ670_View%20From%20Front.jpg)
+#### The bottom side with the branding
+![](img/Components/ITEMS_DATADISP_PANASONIC_PT-RZ670_View%20From%20Bottom.jpg){: height='640px' width='480px'}
+#### Side with the cables plugged in
+![](img/Components/ITEMS_DATADISP_PANASONIC_PT-RZ670_View%20From%20Side.jpg)
 ### Instructor workstation/podium/lectern
 - Check the sides of the lectern for a drawer. Usually has the document camera.  
 - Pull out the drawer and prop up the document camera. 
