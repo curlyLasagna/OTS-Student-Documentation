@@ -3,22 +3,32 @@ site_author: 'lgascon1'
 nav:
   - Home: index.md
   - About: about.md
-  - 'Room Access':
-    - 'Contacts': contact.md
-    - 'Door codes': doorCodes.md
-  - 'Room visits': visit.md
-  - 'Data Entry': 
-    - 'Staging data template': excel.md
-    - 'Copying/Importing to Access': access.md
+  - Map: map.md
+  - Virtual Tour Tasks:
+    - 'Room Access':
+      - 'Contacts': contact.md
+      - 'Doors': doorCodes.md
+    - 'Room visits': 
+      - 'Collections' : collections.md
+      - 'Equipment' : equipment.md
+    - 'Editing Photos': photoEdit.md
+    - 'Data Entry': 
+      - 'FAQ': dataEntry.md
+      - 'Staging data template': excel.md
+      - 'Copying/Importing to Access': access.md
     # - 'Adding a new category': category.md
   - 'Imaging a computer': imaging.md
+  - 'Installing Solstice Pod': solstice.md
   - 'Vacuuming projectors': vacuum.md
 
 repo_name: 'Github'
 theme:
   name: material
-  logo: 'img/TU-logo.png'
-
+  logo: '/img/brand-brandmarks-vertical-sq.jpg'
+  features:
+    - toc.follow
+  palette:
+    primary: white
   # primary: amber
   # Light mode
   # - scheme: default
@@ -36,4 +46,5 @@ markdown_extensions:
   - attr_list
   - codehilite
   - mdx_truly_sane_lists
+  - md_in_html
     
