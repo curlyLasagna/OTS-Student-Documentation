@@ -24,7 +24,7 @@ nav:
 repo_name: 'Github'
 theme:
   name: material
-  logo: '/img/brand-brandmarks-vertical-sq.jpg'
+  logo: '/img/8713174.png'
   features:
     - toc.follow
   palette:

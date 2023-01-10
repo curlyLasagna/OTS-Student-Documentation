@@ -6,12 +6,12 @@ I hope you can find this guide useful. I ran out of things to do and this was on
 Made using [MkDocs](https://www.mkdocs.org/)
 
 ## Download
-`$ git clone https://placeholder-git-remote.git`
+`$ git clone https://github.com/curlyLasagna/OTS-Student-Documentation.git`
 
 ## Dependencies
 | Dependency | Version |
 |--|--|
-|Python|3.10|
+|Python|3.10.5|
 |pipenv|idk|
 |mkdocs|latest|
 |mkdocs-material|latest|
@@ -20,7 +20,7 @@ Made using [MkDocs](https://www.mkdocs.org/)
 ## Setting up
 `$ cd OTS_StudentGuide `  
 ### Change python environment
-`$ pipenv shell`
+`$ poetry shell`
 ### Installing dependencies
 `$ pipenv install`  
 ### Servin' it up at your local function
