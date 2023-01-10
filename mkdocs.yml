@@ -5,6 +5,7 @@ nav:
   - About: about.md
   - Map: map.md
   - Virtual Tour Tasks:
+    - 'FAQ': VTFAQs.md
     - 'Room Access':
       - 'Contacts': contact.md
       - 'Doors': doorCodes.md
@@ -13,7 +14,6 @@ nav:
       - 'Equipment' : equipment.md
     - 'Editing Photos': photoEdit.md
     - 'Data Entry': 
-      - 'FAQ': dataEntry.md
       - 'Staging data template': excel.md
       - 'Copying/Importing to Access': access.md
     # - 'Adding a new category': category.md

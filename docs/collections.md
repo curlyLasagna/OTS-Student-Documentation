@@ -22,11 +22,13 @@ Make sure to have the displays around the classroom showing the department web p
 4. Go to the webpage of the room's department
   - Consult the virtual tour if you don't know the department
   - Just use the Towson homepage if you're still not sure
+  - If you're not able to log in, don't sweat it. As long as you have the display working, it's fine.
 What it should look like
 ![](img/Collections/COLLECTIONS_HH0316_Instructor%20Workstation.jpg)
 
 ### Equipment Stack
 - Located either inside the podiums or in a separate compartment.  
 - Wherever there are vents for cooling.
+- Take a close up picture of the top and bottom halves of the equipment stack.
 
 ![](img/Collections/COLLECTIONS_LA3118_Instructor%20Workstation%20Components.jpg)
