@@ -7,7 +7,6 @@ nav:
   - Virtual Tour Tasks:
     - 'FAQ': VTFAQs.md
     - 'Room Access':
-      - 'Contacts': contact.md
       - 'Doors': doorCodes.md
     - 'Room visits': 
       - 'Collections' : collections.md
@@ -24,7 +23,7 @@ nav:
 repo_name: 'Github'
 theme:
   name: material
-  logo: '/img/8713174.png'
+  logo: '/docs/img/8713174.png'
   features:
     - toc.follow
   palette:

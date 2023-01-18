@@ -16,7 +16,7 @@ It looks ugly. Refactoring the program is futile.
 
 ## What type of database does the VT use? 
 - A windows SQL database
-- The Virtual Tour relies on this database to grab data from. Any changes you make within the **ITEMS** and **COLLECTIONS** will be reflected next time the script is ran.
+- The Virtual Tour uses this database to grab data from. Any changes you make within the **ITEMS** and **COLLECTIONS** tables will be reflected next time the script is run.
 
 ## What is Access?
 - MS Access is a front end that makes your interaction with the database that we use similar to Excel.
