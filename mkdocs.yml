@@ -19,6 +19,8 @@ nav:
   - 'Imaging a computer': imaging.md
   - 'Installing Solstice Pod': solstice.md
   - 'Vacuuming projectors': vacuum.md
+  - 'Summer room checks': summer.md
+  - 'Quality Assurance' : qa.md
 
 repo_name: 'Github'
 theme:
