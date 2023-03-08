@@ -1,27 +1,46 @@
 # Personal guide for OTS students
-This guide covers what <b>I</b> did during my time as a student employee.   
+
+This guide covers what **I** did during my time as a student employee. 
 This guide doesn't cover everything that a student employee is responsible for.  
-I hope you can find this guide useful. I ran out of things to do and this was one thing I could do that was productive   
+I hope you find this guide useful. I ran out of things to do and this was one thing I could do that was productive.
 
 Made using [MkDocs](https://www.mkdocs.org/)
+Dependencies managed by [Poetry](https://python-poetry.org/)
 
-## Download
+Before you go run the commands below, make sure you have poetry installed.
+
+## Clone the repo
+
 `$ git clone https://github.com/curlyLasagna/OTS-Student-Documentation.git`
 
-## Dependencies
-| Dependency | Version |
-|--|--|
-|Python|3.10.5|
-|pipenv|idk|
-|mkdocs|latest|
-|mkdocs-material|latest|
-|mkdocs-material-extensions|latest|
-
 ## Setting up
-`$ cd OTS_StudentGuide `  
+
+`$ cd OTS_StudentGuide`
+
 ### Change python environment
+
 `$ poetry shell`
+
 ### Installing dependencies
+
 `$ pipenv install`  
-### Servin' it up at your local function
+
+### Servin' it up at your local port
+
 `$ mkdocs serve`
+
+### Viewing changes
+
+Visit the `localhost` url that `mkdocs serve` said in the command line.
+The default should be `8000`
+Can't remember nor do I care to research, but it's hot reload so any time you save, the browser refreshes and shows the new changes.  
+> Be careful when you have the project saved in OneDrive. For some reason, hot reload will constantly trigger, causing the browser to continuously refresh.
+
+### To update changes to Github Pages
+
+Fortunately, MkDocs comes with a pretty cool command flag that deals with Github Pages
+
+`$ mkdocs gh-deploy`
+
+This creates a `gh-pages` branch and pushes that branch to GitHub  
+[Click here](https://www.mkdocs.org/user-guide/deploying-your-docs/) if you want to read more information about `gh-deploy`

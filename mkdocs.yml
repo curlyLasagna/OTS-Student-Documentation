@@ -14,18 +14,19 @@ nav:
     - 'Editing Photos': photoEdit.md
     - 'Data Entry': 
       - 'Staging data template': excel.md
-      - 'Copying/Importing to Access': access.md
+      - 'Working with Access': access.md
     # - 'Adding a new category': category.md
   - 'Imaging a computer': imaging.md
   - 'Installing Solstice Pod': solstice.md
   - 'Vacuuming projectors': vacuum.md
   - 'Summer room checks': summer.md
   - 'Quality Assurance' : qa.md
+  - 'Mapping Network Drives': networkDrive.md
 
 repo_name: 'Github'
 theme:
   name: material
-  logo: '/docs/img/8713174.png'
+  logo: '/img/8713174.png'
   features:
     - toc.follow
   palette:
