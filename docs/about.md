@@ -1,10 +1,8 @@
 # About
 
-I created this to make it easy to reference when you're out and about. It's mobile friendly and pretty 🥰  
+I created this guide to make it easy to reference when you're out and about. It's mobile friendly and pretty 🥰  
 
-This was made using MkDocs so it uses [Python Markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/)
-
-<br>
+This guide was made using MkDocs, which uses [Python Markdown](https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/)
 
 ## Author
 

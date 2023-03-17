@@ -4,29 +4,39 @@ nav:
   - Home: index.md
   - About: about.md
   - Map: map.md
-  - Virtual Tour Tasks:
+  - Virtual Tour:
     - 'FAQ': VTFAQs.md
-    - 'Room Access':
+    - 'Before heading out':
+      - 'Contacting people': visit.md
       - 'Doors': doorCodes.md
-    - 'Room visits': 
+    - 'While at the room': 
       - 'Collections' : collections.md
       - 'Equipment' : equipment.md
     - 'Editing Photos': photoEdit.md
     - 'Data Entry': 
       - 'Staging data template': excel.md
       - 'Working with Access': access.md
+    # TODO: Create a page for adding category to the database
     # - 'Adding a new category': category.md
-  - 'Imaging a computer': imaging.md
-  - 'Installing Solstice Pod': solstice.md
-  - 'Vacuuming projectors': vacuum.md
-  - 'Summer room checks': summer.md
-  - 'Quality Assurance' : qa.md
-  - 'Mapping Network Drives': networkDrive.md
+  - Imaging a computer: imaging.md
+  - Solstice Pod: 
+    - 'Instalation/Replacement': solstice.md
+    - 'Maintenance': fixing_solstice.md
+  - Vacuuming projectors: vacuum.md
+  - Summer room checks: summer.md
+  - Quality Assurance : qa.md
+  - Mapping Network Drives: networkDrive.md
+  - Equipment: 
+    - Microphones: microphones.md
+    - Cameras: cameras.md
+    - Control panels: panels.md
+    - Projectors: projectors.md
 
 repo_name: 'Github'
 theme:
   name: material
-  logo: '/img/8713174.png'
+  icon:
+    logo: material/Rocket
   features:
     - toc.follow
   palette:

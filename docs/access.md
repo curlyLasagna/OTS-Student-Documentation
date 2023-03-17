@@ -1,4 +1,8 @@
+# Microsoft Access 🤮
+
 I'm not a fan of using Microsoft Access but it gets the job done.
+
+![Meme](https://i.redd.it/yjp0len9a6ka1.png)
 
 ## Closing MS Access
 
@@ -12,3 +16,5 @@ I'm not a fan of using Microsoft Access but it gets the job done.
 ### Creating a copy of .mdb file still points to the same database
 
 I've made the mistake of copying the techInfo.mdb file thinking that I had my own database to play with.
+
+As you can imagine, any testing I've done was reflected back on the actual database. In one instance where I was testing out this import method, I accidentally duplicated each items 4 times in each room for one building. Fortunately I was able to filter out these entries by who created it and remove those duplicates in under a minute.

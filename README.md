@@ -42,5 +42,5 @@ Fortunately, MkDocs comes with a pretty cool command flag that deals with Github
 
 `$ mkdocs gh-deploy`
 
-This creates a `gh-pages` branch and pushes that branch to GitHub  
+This creates a `gh-pages` branch and pushes that branch to GitHub, which is then published on GitHub Pages.  
 [Click here](https://www.mkdocs.org/user-guide/deploying-your-docs/) if you want to read more information about `gh-deploy`
