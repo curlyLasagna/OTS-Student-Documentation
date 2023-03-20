@@ -4,10 +4,10 @@ This guide covers what **I** did during my time as a student employee.
 This guide doesn't cover everything that a student employee is responsible for.  
 I hope you find this guide useful. I ran out of things to do and this was one thing I could do that was productive.
 
-Made using [MkDocs](https://www.mkdocs.org/)
+Made using [MkDocs](https://www.mkdocs.org/)  
 Dependencies managed by [Poetry](https://python-poetry.org/)
 
-Before you go run the commands below, make sure you have poetry installed.
+Before you go run the commands below, make sure you have poetry installed by running `pip install poetry`
 
 ## Clone the repo
 
@@ -23,7 +23,13 @@ Before you go run the commands below, make sure you have poetry installed.
 
 ### Installing dependencies
 
-`$ pipenv install`  
+`$ poetry install`
+  
+#### How dependencies are managed
+
+In `pyproject.toml` file, look for `tool.poetry.dependencies`.  
+That is where dependencies are declared.  
+To add a dependency run `poetry add <package>`
 
 ### Servin' it up at your local port
 
@@ -32,7 +38,7 @@ Before you go run the commands below, make sure you have poetry installed.
 ### Viewing changes
 
 Visit the `localhost` url that `mkdocs serve` said in the command line.
-The default should be `8000`
+The default should be `8000`.
 Can't remember nor do I care to research, but it's hot reload so any time you save, the browser refreshes and shows the new changes.  
 > Be careful when you have the project saved in OneDrive. For some reason, hot reload will constantly trigger, causing the browser to continuously refresh.
 
