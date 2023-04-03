@@ -9,24 +9,24 @@ nav:
     - 'Before heading out':
       - 'Contacting people': visit.md
       - 'Doors': doorCodes.md
-    - 'While at the room': 
+    - 'While at the room':
       - 'Collections' : collections.md
       - 'Equipment' : equipment.md
     - 'Editing Photos': photoEdit.md
-    - 'Data Entry': 
+    - 'Data Entry':
       - 'Staging data template': excel.md
       - 'Working with Access': access.md
     # TODO: Create a page for adding category to the database
     # - 'Adding a new category': category.md
   - Imaging a computer: imaging.md
-  - Solstice Pod: 
+  - Solstice Pod:
     - 'Instalation/Replacement': solstice.md
     - 'Maintenance': fixing_solstice.md
   - Vacuuming projectors: vacuum.md
   - Summer room checks: summer.md
   - Quality Assurance : qa.md
   - Mapping Network Drives: networkDrive.md
-  - Equipment: 
+  - Equipment:
     - Microphones: microphones.md
     - Cameras: cameras.md
     - Control panels: panels.md
@@ -39,6 +39,7 @@ theme:
     logo: material/Rocket
   features:
     - toc.follow
+    - content.tabs.link
   palette:
     primary: white
   # primary: amber
@@ -59,4 +60,4 @@ markdown_extensions:
   - codehilite
   - mdx_truly_sane_lists
   - md_in_html
-    
+
