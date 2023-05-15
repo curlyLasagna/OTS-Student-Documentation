@@ -7,7 +7,7 @@ nav:
   - Virtual Tour:
     - 'FAQ': VTFAQs.md
     - 'Before heading out':
-      - 'Contacting people': visit.md
+      - 'Check the schedule': visit.md
       - 'Doors': doorCodes.md
     - 'While at the room':
       - 'Collections' : collections.md
