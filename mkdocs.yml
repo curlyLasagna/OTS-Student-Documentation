@@ -7,6 +7,7 @@ nav:
   - Virtual Tour:
     - 'FAQ': VTFAQs.md
     - 'Before heading out':
+      - 'Contact people': contacting.md
       - 'Check the schedule': visit.md
       - 'Doors': doorCodes.md
     - 'While at the room':
@@ -31,6 +32,7 @@ nav:
     - Cameras: cameras.md
     - Control panels: panels.md
     - Projectors: projectors.md
+    - Document Cameras: document_cameras.md
 
 repo_name: 'Github'
 theme:

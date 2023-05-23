@@ -1,7 +1,10 @@
 # Collections
 
 - Identify the room type
-  - This step is usually taken care of by whoever assigned you the task. If not, the room is either a conference room, a classroom, or a lab
+  - This step is usually taken care of by whoever assigned you the task. If not, the room is one of the following:
+    - Conference room
+    - Classroom
+    - Lab
 - Count the number of seats 
   - Count the seats available, whether it's folded, or not
   - Count the number of seats with a computer right in front of it 
@@ -36,7 +39,7 @@ Make sure to have the displays around the classroom showing the department web p
   - Consult the virtual tour if you don't know the department
   - Just use the Towson homepage if you're still not sure
   - If you're not able to log in, don't sweat it. As long as you have the display working, it's fine.
-What it should look like
+What it should look like:  
 ![](img/Collections/COLLECTIONS_HH0316_Instructor%20Workstation.jpg)
 
 ### Equipment Stack

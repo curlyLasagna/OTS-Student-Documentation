@@ -2,7 +2,6 @@
 
 This guide covers what **I** did during my time as a student employee. 
 This guide doesn't cover everything that a student employee is responsible for.  
-I hope you find this guide useful. I ran out of things to do and this was one thing I could do that was productive.
 
 Made using [MkDocs](https://www.mkdocs.org/)  
 Dependencies managed by [Poetry](https://python-poetry.org/)
@@ -37,9 +36,9 @@ To add a dependency run `poetry add <package>`
 
 ### Viewing changes
 
-Visit the `localhost` url that `mkdocs serve` said in the command line.
+Visit the `localhost` url that `mkdocs serve` prints on the command line.
 The default should be `8000`.
-Can't remember nor do I care to research, but it's hot reload so any time you save, the browser refreshes and shows the new changes.  
+Can't remember nor do I care to research, but it has a hot reload feature so whenever you save changes on any one of the files it reads, the browser refreshes and outputs the new changes.  
 > Be careful when you have the project saved in OneDrive. For some reason, hot reload will constantly trigger, causing the browser to continuously refresh.
 
 ### To update changes to Github Pages

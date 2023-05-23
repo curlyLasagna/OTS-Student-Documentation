@@ -47,10 +47,10 @@ Projector's that have a hard time cooling itself will show a temperature warning
 
 After you vacuumed the projector, it's best to ensure that the warning doesn't show up. Honestly, as long as it looks clean, you're good to go.
 
-1. Start the system by pressing start on the Crestron panel.
+1. Start the system by pressing start on the Crestron panel.  
   ![](img/crestron_on.png)
   - If it prompts for a source, click "Projector" 
 2. Let the projector run for a couple of minutes
   - If there are no temperature warnings, then there's no problem. Good job.
-3. Click "Finish" on the Crestron panel to turn the system off.
+3. Click "Finish" on the Crestron panel to turn the system off.  
   ![](img/crestron_off.png)

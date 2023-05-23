@@ -1,6 +1,6 @@
 # Microsoft Access 🤮
 
-I'm not a fan of using Microsoft Access but it gets the job done.
+This is the worst piece of software I have ever got in contact with.
 
 ![Meme](https://i.redd.it/yjp0len9a6ka1.png)
 
@@ -10,10 +10,10 @@ I'm not a fan of using Microsoft Access but it gets the job done.
 
 ## Importing data into MS Access
 
-- Importing from an excel file may be handy but its error messages are uninformative and the process takes way too long
+- Importing from an excel file may be handy but its error messages are cryptic and the process takes way too long
 - I copy the rows in excel that I want to use and just paste it into Access. It should be that simple and it's also easier to see where you mess up
 
-### Creating a copy of .mdb file still points to the same database
+### A .mdb file is a reference to a database. Not a copy of the database 😓
 
 I've made the mistake of copying the techInfo.mdb file thinking that I had my own database to play with.
 

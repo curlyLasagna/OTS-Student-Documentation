@@ -1,8 +1,7 @@
 ## Staging Data
 - The purpose of the staging data excel sheet is, as the name suggests, is a draft to what components are added or removed from the room.
 - The quality and the quantity of the photos you took during the room visit is very important as it gives you a more accurate count of what's in the room
-## Excel Staging Data Template
-- 
+- The staging data should imitate the MS Access structure so you can easily paste it into the database without issue.
 
 ## Excel formulas 
 
