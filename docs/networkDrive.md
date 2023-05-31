@@ -10,6 +10,7 @@
 
 1. Open Finder.
 2. Click "Go" on the menubar up top.
+3. Click "Connect to Server"
 3. Ask for the network address.
 4. Click the Connect button.
 
