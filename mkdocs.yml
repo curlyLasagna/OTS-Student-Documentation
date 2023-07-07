@@ -3,9 +3,9 @@ site_author: 'lgascon1'
 nav:
   - Home: index.md
   - About: about.md
-  - Map: map.md
   - Virtual Tour Tasks:
     - 'FAQ': VTFAQs.md
+    - 'Before the visit': visit.md
     - 'Room Access':
       - 'Doors': doorCodes.md
     - 'Room visits': 

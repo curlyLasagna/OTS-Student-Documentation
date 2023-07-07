@@ -1,10 +1,12 @@
 # Installing/Replacing a new Solstice Pod
 
-## What to know
-- Ask Ben for admin password
+## Requirements
+- Admin password
+- A Mersive Solstice Pod
 
 ## Steps
-1. Connect the Solstice Pod using the same RJ-45 cable.
-2. Connect the HDMI cable to the slot labeled "HDMI 1", where it says "4k"
-3. 
+1. Connect the Solstice Pod with an ethernet cable from the wall.
+2. Connect the HDMI cable to an HDMI cable slot.
+3. Power on the room's display and change the input source to the Solstice Pod
+4. 
 
