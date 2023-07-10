@@ -11,7 +11,7 @@ Whenever a TU Windows computer stops being functional, the best course of action
 
 ### Booting to Ghost
 1. Restart the computer and change boot drive
-   - It depends on the PC manufacturer but it's usually <kbd> F12 </kbd> or <kbd> DEL  </kbd>
+   - It depends on the PC manufacturer but it's usually <kbd> F12 </kbd> or <kbd> DEL </kbd>
    - I recommend plugging it in the back of the PC if possible. Front USB ports aren't always reliable when using those as ports to boot into an external drive.
 
 ### Imaging the OS
@@ -24,7 +24,7 @@ Whenever a TU Windows computer stops being functional, the best course of action
 5. Ghost should automatically select the correct partition, so just hit `Next`
 6. Wait until the imaging is done
 7. Unplug the USB drive
-   - Prevents the computer from booting back into Ghost
+   - This step prevents the computer from booting back into Ghost (slight inconvenience)
    - If it does boot back to the USB stick, just restart the computer
 
 ### First boot into Windows

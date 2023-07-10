@@ -8,24 +8,39 @@ nav:
     - 'Before the visit': visit.md
     - 'Room Access':
       - 'Doors': doorCodes.md
-    - 'Room visits': 
+    - 'While at the room':
       - 'Collections' : collections.md
       - 'Equipment' : equipment.md
     - 'Editing Photos': photoEdit.md
-    - 'Data Entry': 
+    - 'Instructions': instructions.md
+    - 'Data Entry':
       - 'Staging data template': excel.md
-      - 'Copying/Importing to Access': access.md
+      - 'Working with Access': access.md
+    # TODO: Create a page for adding category to the database
     # - 'Adding a new category': category.md
-  - 'Imaging a computer': imaging.md
-  - 'Installing Solstice Pod': solstice.md
-  - 'Vacuuming projectors': vacuum.md
+  - Imaging a computer: imaging.md
+  - Solstice Pod:
+    - 'Instalation/Replacement': solstice.md
+    - 'Maintenance': fixing_solstice.md
+  - Vacuuming projectors: vacuum.md
+  - Summer room checks: summer.md
+  - Quality Assurance : qa.md
+  - Mapping Network Drives: networkDrive.md
+  - Equipment:
+    - Microphones: microphones.md
+    - Cameras: cameras.md
+    - Control panels: panels.md
+    - Projectors: projectors.md
+    - Document Cameras: document_cameras.md
 
 repo_name: 'Github'
 theme:
   name: material
-  logo: '/docs/img/8713174.png'
+  icon:
+    logo: material/Rocket
   features:
     - toc.follow
+    - content.tabs.link
   palette:
     primary: white
   # primary: amber
@@ -46,4 +61,4 @@ markdown_extensions:
   - codehilite
   - mdx_truly_sane_lists
   - md_in_html
-    
+
