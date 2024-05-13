@@ -6,7 +6,9 @@ nav:
   - 'Room Access':
     - 'Contacts': contact.md
     - 'Door codes': doorCodes.md
-  - 'Room visits': visit.md
+  - 'Room visits': 
+    - 'Collections' : collections.md
+    - 'Equipment' : equipment.md
   - 'Data Entry': 
     - 'Staging data template': excel.md
     - 'Copying/Importing to Access': access.md
