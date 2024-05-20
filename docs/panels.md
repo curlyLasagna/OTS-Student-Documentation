@@ -8,11 +8,11 @@
 
 They just sit on top of the podium, connected to a network cable.
 
-- These panels support [Power over Ethernet](https://www.techtarget.com/searchnetworking/definition/Power-over-Ethernet), so a single network cable takes care of communication and powering on the panel.
+- These panels support [Power over Ethernet](https://www.techtarget.com/searchnetworking/definition/Power-over-Ethernet), so a single network cable takes care of communication and power on the panel.
 
 ## Wall panels
 
-As far as I remember, you can take these panels out by hand if you ever have the need to fix it, but if it's not budging, don't try.
+As far as I remember, you can take these panels out by hand if you ever need to fix them, but if it's not budging, don't try.
 
 ### Basic troubleshooting
 
@@ -20,4 +20,4 @@ If these touch panels start acting up, disconnect the network cable from the bac
 
 - Some touch panels do require tools to open up from the back
 
-If the touch panels shows an error message, take a picture of the error on the screen before unplugging the network cable.
+If the touch panels show an error message, take a picture of the error on the screen before unplugging the network cable.

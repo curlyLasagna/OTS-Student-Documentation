@@ -24,10 +24,50 @@ This tool is useful if you want to modify a picture that was taken at at an angl
 3. Save it in the "Finished" folder
 
 #### Setting the title
-This is the not so fun part. You can either do the following:
 
-- Manually type out the title and be a chump
-- Copy paste from an Excel sheet that I made for this purpose and be a chad
+The title of the COLLECTIONS image is particular.
+
+I created this Python script to generate all possible COLLECTIONS title.
+
+```python
+"""Returns the title of a COLLECTIONS image for the virtual tour
+
+Any images with the prefix of COLLECTIONS must follow the structure to be outputted to be valid
+
+Args:
+    collectionCode (str): The room number or collection code of the appropriate image
+
+Returns:
+    list (str): List of strings with the collection code and the suffixes 
+
+"""
+def returnTitle(collectionCode: str) -> list[str]:
+    collectionSuffix = [
+        "View From Front",
+        "View From Back",
+        "Instructor Workstation",
+        "Instructor Workstation Components",
+    ]
+
+    return [f"COLLECTIONS_{collectionCode}_{s}" for s in collectionSuffix]
+
+
+while True:
+    collectionCode = (
+        input("Enter in 'q' to quit\nEnter the collection code of the room: ")
+        .replace(" ", "")
+        .upper()
+    )
+
+    if collectionCode == "Q":
+        run = False
+        break
+    else:
+        print("\nCOLLECTIONS image titles:\n")
+        for title in returnTitle(collectionCode):
+            print(f"{title}\n")
+
+```
 
 ## Uploading edited photos to the production site
 > Whatever you do to the Virtual Tour directory will reflect on the actual website, so traverse and modify files with caution

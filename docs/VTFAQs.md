@@ -18,10 +18,6 @@ It's best to start over.
 - The different types of equipment in a room
 - The TU tag number of computers
 
-### Item_cost
-
-- A list of each
-
 ## What is Access?
 
 - MS Access is a front end that makes your interaction with the database that we use similar to Excel.
@@ -49,9 +45,5 @@ It's best to start over.
 </figure>
 
 ## Personal thoughts
-Since we interface with the database using Access, it's fairly compatible with Excel.  
-However, a lot of the column fields in the database should be automated.  
-It gets fairly draining working with spreadsheets when you honestly do not have to.  
-This could be achieved by creating an application that you lets enter in only the unique tidbits of information such as what components are added, and quantity. I would argue that that should be the only information that you have to think about, not the date, your name, room number etc.  
-That application would communicate with an API that talks directly to the database, so adding data into the database is a lot faster, resulting in less errors and reducing what data a user might erroneously mutate during data insertion.  
-With the introduction of Team Dynamix, we could potentially use their Asset feature to store all the information about each component
+
+The Virtual Tour website is deprecated and contains too much information that is irrelevant to its target audience. Adding content to the website is so involved and cumbersome.
