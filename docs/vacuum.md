@@ -1,9 +1,9 @@
 # Vacuuming Projectors
 
-Projector's get hot, so it comes with a fan.  
-Fans also suck in dust.  
-Dust blocks airflow, so there's less ventilation  
-Projector's that have a hard time cooling itself will show a temperature warning and the fans will have to run much louder
+- Projectors get hot, so it comes with a fan
+- Fans also suck in dust
+- Dust blocks airflow, so there's less ventilation
+- Projectors that have a hard time cooling themselves will show a temperature warning and the fans will have to run much louder
 
 ## Carrying the vacuum
 
