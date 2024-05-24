@@ -1,12 +1,13 @@
 ## Equipment list
 
 - If you're lucky, you'll get an accurate TUBOM attached to the ticket that was assigned to you
-  - Take a look at the TUBOM and look for the items listed in there that was added. It should list the quantity or have a column that says 'Customer Refurbished'
+  - Take a look at the TUBOM and look for the items listed in there that were added. Look for rows with a value in the quantity column or ones that say 'Customer Refurbished'
   - If a TUBOM isn't provided, you'll have to look around the room and compare it whichever is in the virtual tour
 - Check the ceiling for these components:
   - Ceiling speakers
   - Microphones 
-- There are equipment placed behind displays. 
+  - Cameras
+- There are components placed behind displays. 
   - Mostly small form factor computers, Solstice Pods, or small miscellaneous components.
 
 ### Projectors 

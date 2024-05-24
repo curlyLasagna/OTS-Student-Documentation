@@ -39,7 +39,7 @@
 
 - Dust should start to get sucked in
 
-- Make sure not to bump the projector
+- Make sure **not** to **bump the projector** so it doesn't get misaligned
 
 3.	Repeat until all vents are cleaned
 

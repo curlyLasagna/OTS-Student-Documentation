@@ -1,4 +1,7 @@
 > I hope you don't have to deal with this, future student employee. This form of data entry is pain, which is why I've automated most of it!
+> I can't be of much help in this regard. Consult with other employees
+
+I created an Excel sheet that pulls in data from the `techinfo` SQL database that acts as a middle man between the formulas I've created
 
 ## Staging Data
 
@@ -8,9 +11,9 @@
 
 ### Lazy approach
 
-Just copy paste 
+Just copy paste
 
-## Excel formulas 
+## Excel formulas
 
 ``` sql
 -- Get CATEGORY

@@ -32,7 +32,7 @@ nav:
     - Projectors: projectors.md
 
 repo_name: 'Github'
-theme:
+theme: 
   name: material
   icon:
     logo: material/Rocket
@@ -40,23 +40,31 @@ theme:
     - toc.follow
     - content.tabs.link
   palette:
-    primary: white
-  # primary: amber
-  # Light mode
-  # - scheme: default
-  #   toggle:
-  #   icon: material/toggle-switch
-  #   name: Switch to dark mode 
+    # Light mode
+    - scheme: default
+      primary: amber
+      accent: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode 
 
-  # # Dark mode
-  # - scheme: slate
-  #   toggle: 
-  #   icon: material/toggle-switch-off-outline
-  #   name: Switch to light mode
-
+    # Dark mode
+    - scheme: slate
+      primary: amber
+      accent: black
+      toggle: 
+        icon: material/brightness-7
+        name: Switch to light mode
+extra:
+  generator: false
+copyright: CCLT Student Employee Documentation
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
+  - admonition
   - attr_list
   - codehilite
   - mdx_truly_sane_lists
   - md_in_html
-
+plugins:
+  - offline

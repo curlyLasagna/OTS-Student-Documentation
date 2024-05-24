@@ -1,9 +1,7 @@
 # FAQ about the Virtual Tour
 
-## What tech stack do we use for the Virtual Tour website
-
-An executable created using VB to automatically generate a static HTML file for each room. The virtual tour 'script' as other call it, is a misnomer. It's compiled.  
 The website is outdated. Refactoring the website is futile.  
+
 It's best to start over.
 
 ## What kind of data am I going to be entering?
@@ -11,7 +9,9 @@ It's best to start over.
 ### Collections
 
 - The number of seats in a classroom with and without a computer in front of it.
-- What wireless projector it uses (Mersive or Cisco)
+- What wireless projector does it use (Mersive or Cisco)
+- Door lock type
+- Instruction path
 
 ### Items
 
@@ -25,14 +25,14 @@ It's best to start over.
 
 ### Be wary when using Access
 
-- Any changes you make in Access instantly applies to the actual database.
+- Any changes you make in Access instantly apply to the actual database.
   - You can't 'undo' your way out of it.
 - Personally not a fan of using it.
 - If you make a mistake, don't feel bad. You're only adding a piece of paper to the landfill.
 
 ## What type of database does the Virtual Tour use?
 
-- A windows SQL database
+- A Windows SQL database
 - The Virtual Tour uses this database to grab data from. Any changes you make within the **ITEMS** and **COLLECTIONS** tables will be reflected next time the script is run.
 
 ## I can't seem to find my way around the shared network directory
@@ -43,7 +43,3 @@ It's best to start over.
 ![Trash](http://www.hcr-llc.com/hubfs/Images/Blog_Images/Landfill_Problems__Solutions-1.jpg)
 <figcaption>Traversing the O: drive</figcaption>
 </figure>
-
-## Personal thoughts
-
-The Virtual Tour website is deprecated and contains too much information that is irrelevant to its target audience. Adding content to the website is so involved and cumbersome.

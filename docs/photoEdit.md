@@ -2,9 +2,11 @@
 Editing photos is fairly simple, yet cumbersome. Make sure you have Adobe Photoshop installed.  
 Also ensure that you have the original copies of the pictures stored in your One Drive. You have 1TB of free cloud storage, abuse it.
 
-## Directories structure
-Dump the unedited pictures in a new folder called "Originals"  
-Create a new folder called "Finished", which stores the edited photos
+## Directory structure
+
+- The directory that you'll be working with the most will be under: `/Client Services/Classroom Technology/Operations/Virtual Tour/Classroom Photos`
+- Each building will have its own respective folder and each room will have its own folder
+- Create a new folder called "Finished", which stores the edited photos
 
 ## Editing photos
 1. Right click the image you've taken and open with "Adobe Photoshop".
@@ -14,8 +16,9 @@ Create a new folder called "Finished", which stores the edited photos
 
 ### Perspective Warp
 
-This tool is useful if you want to modify a picture that was taken at at an angle so that it appears straight.
+This tool is useful if you want to modify a picture that was taken at an angle so that it appears straight.
 
+[Perspective warp documentation](https://digital-photography-school.com/photoshop-perspective-warp-tool/)
 
 ### Exporting the edited photo
 
@@ -26,6 +29,10 @@ This tool is useful if you want to modify a picture that was taken at at an angl
 #### Setting the title
 
 The title of the COLLECTIONS image is particular.
+
+It has to have this form:
+
+`COLLECTIONS_CA3069_VIEW FROM FRONT.jpg` and etc.
 
 I created this Python script to generate all possible COLLECTIONS title.
 
@@ -70,6 +77,7 @@ while True:
 ```
 
 ## Uploading edited photos to the production site
+
 > Whatever you do to the Virtual Tour directory will reflect on the actual website, so traverse and modify files with caution
 
 ### When there's equipment that has been replaced or removed
