@@ -1,0 +1,17 @@
+.s {
+  flex-direction: column;
+};
+
+image {
+  width: 40%;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+[data-md-color-scheme="TU"] {
+  --md-primary-fg-color: #FFBB00; 
+}
