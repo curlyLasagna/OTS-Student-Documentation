@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
     
     
       
@@ -603,17 +603,17 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#excel-formulas" class="md-nav__link">
+          <li class="md-nav__item">
+  <a href="#excel-formulas-for-staging-sheet" class="md-nav__link">
     <span class="md-ellipsis">
-      Excel formulas
+      Excel formulas for staging sheet
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1035,17 +1035,17 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#excel-formulas" class="md-nav__link">
+          <li class="md-nav__item">
+  <a href="#excel-formulas-for-staging-sheet" class="md-nav__link">
     <span class="md-ellipsis">
-      Excel formulas
+      Excel formulas for staging sheet
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1071,6 +1071,7 @@
 I can't be of much help in this regard. Consult with other employees</p>
 </blockquote>
 <p>I created an Excel sheet that pulls in data from the <code>techinfo</code> SQL database that acts as a middle man between the formulas I've created</p>
+<p>The file is named ITEMS_COST. Please feel free to reach out to me on WebEx or through my Github for those files. I'm more than happy to walk you through the process.</p>
 <h2 id="staging-data">Staging Data</h2>
 <ul>
 <li>The purpose of the staging data Excel sheet is, as the name suggests, a draft of what components are added or removed from the room.</li>
@@ -1078,8 +1079,10 @@ I can't be of much help in this regard. Consult with other employees</p>
 <li>The staging data should imitate the MS Access structure so you can easily paste it into the database without issue.</li>
 </ul>
 <h3 id="lazy-approach">Lazy approach</h3>
-<p>Just copy paste</p>
-<h2 id="excel-formulas">Excel formulas</h2>
+<p>Just copy paste what you have in Excel over to Access</p>
+<h3 id="excel-formulas-for-staging-sheet">Excel formulas for staging sheet</h3>
+<p>These are some of the formulas in my staging sheet </p>
+<p>Make sure to have the ITEMS_COST file in the same working directory as your staging sheet </p>
 <div class="codehilite"><pre><span></span><code><span class="c1">-- Get CATEGORY</span>
 <span class="c1">-- You might have to re-reference the ITEM_COST file if it returns a #. </span>
 <span class="o">=</span><span class="n">VLOOKUP</span><span class="p">(</span><span class="n">C2</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;[ITEM_COST (version 2).xlsx]ITEM_COST&#39;</span><span class="o">!</span><span class="err">$</span><span class="n">A</span><span class="p">:</span><span class="err">$</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="k">FALSE</span><span class="p">)</span>
@@ -1146,7 +1149,7 @@ I can't be of much help in this regard. Consult with other employees</p>
     <script id="__config" type="application/json">{"base": ".", "features": ["toc.follow", "content.tabs.link"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
   </body>
