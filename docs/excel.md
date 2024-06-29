@@ -3,6 +3,8 @@
 
 I created an Excel sheet that pulls in data from the `techinfo` SQL database that acts as a middle man between the formulas I've created
 
+The file is named ITEMS_COST. Please feel free to reach out to me on WebEx or through my Github for those files. I'm more than happy to walk you through the process.
+
 ## Staging Data
 
 - The purpose of the staging data Excel sheet is, as the name suggests, a draft of what components are added or removed from the room.
@@ -11,9 +13,13 @@ I created an Excel sheet that pulls in data from the `techinfo` SQL database tha
 
 ### Lazy approach
 
-Just copy paste
+Just copy paste what you have in Excel over to Access
 
-## Excel formulas
+### Excel formulas for staging sheet 
+
+These are some of the formulas in my staging sheet 
+
+Make sure to have the ITEMS_COST file in the same working directory as your staging sheet 
 
 ``` sql
 -- Get CATEGORY

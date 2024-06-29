@@ -12,7 +12,7 @@
 
 ## Pictures
 
-Make sure to have the displays around the classroom showing the department web page
+Make sure to have the displays around the classroom show the room's respective department web page
 - Sometimes I forget to do it. I just let another student deal with it ;)
 
 ### View from the front of the classroom

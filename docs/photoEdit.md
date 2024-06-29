@@ -30,9 +30,7 @@ This tool is useful if you want to modify a picture that was taken at an angle s
 
 The title of the COLLECTIONS image is particular.
 
-It has to have this form:
-
-`COLLECTIONS_CA3069_VIEW FROM FRONT.jpg` and etc.
+It has to have this form: `COLLECTIONS_CA3069_VIEW FROM FRONT.jpg`
 
 I created this Python script to generate all possible COLLECTIONS title.
 

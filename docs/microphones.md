@@ -8,4 +8,10 @@
 
 ## Basic Troubleshooting
 
+### No output
+
+Check to make sure that the microphone you want to use is set to "Use" in the touchpanel
+
+### No power
+
 If lavalier and handheld microphones will not output, the battery is probably out, so replace it, but that should be the department's responsibility

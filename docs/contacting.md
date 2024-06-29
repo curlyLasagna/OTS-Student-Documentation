@@ -11,5 +11,3 @@ I wanted to inquire about the availability of <room/list of rooms\> so I can tak
 Or just have [Chat Jippity](https://chat.openai.com/) write one for you.
 Always CC the appropriate coordinator in your emails.  
 If unsure, you may CC either [James Hardin](mailto:JHardin@towson.edu) or [Ben Crull](mailto:bcrull@towson.edu)
-
-## 

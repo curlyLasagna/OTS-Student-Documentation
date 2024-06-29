@@ -1,15 +1,9 @@
 # Making instructions
 
-Each room in the Virtual Tour has an instruction sheet associated with it.
+Before I left, there were talks of using Team Dynamix Knowledge Base to host instructions.
 
-## Tools required
-- Adobe Acrobat Pro.
+In anticipation for this move, I've opted to create instructions that can easily migrate to Knowledge Base. 
 
-## Process
+I have created web based instructions in a folder called `instructions` at the room of the virtual tour directory. The documentation could be better, which can be found in `README.md`, but I was the only person using it.
 
-1. Find rooms that have a similar structure and equipment.
-2. Set the mode to Edit by clicking the "Edit" button.
-2. Use the above document as a starting point and modify the document according to the room's needs.
-	- Make extensive use of the "Replace image" function when right clicking an image.
-3. Export the PDF with the title "collection code_instructions.pdf" in the same directory that the pictures are stored.
-4. Edit the Collections table in the techinfo.mdb to have the right link under the `COLLECTION_HELP_1` property.
+You can simply copy and paste the `.html` contents of the instruction to the Knowledge Base rich text editor

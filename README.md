@@ -1,12 +1,13 @@
 # Personal guide for OTS students
 
-This guide covers what **I** did during my time as a student employee. 
-This guide doesn't cover everything that a student employee is responsible for.  
+This guide covers what **I** did during my time as a student employee.
+This guide doesn't cover everything that a student employee is responsible for.
 
 Made using [MkDocs](https://www.mkdocs.org/)  
 Dependencies managed by [Poetry](https://python-poetry.org/)
 
-Before you go run the commands below, make sure you have poetry installed by running `pip install poetry`
+Development was mostly done using MacOS.
+Before you go running the commands below, make sure you have poetry installed by running `pipx install poetry`
 
 ## Clone the repo
 
@@ -14,7 +15,7 @@ Before you go run the commands below, make sure you have poetry installed by run
 
 ## Setting up
 
-`$ cd OTS_StudentGuide`
+`$ cd OTS_StudentGuide` to go to the 
 
 ### Change python environment
 

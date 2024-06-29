@@ -33,7 +33,7 @@ Use the `ping` command from your PC to test network connectivity using the devic
 
 Verify the port is on the correct VLAN by obtaining the IP address.  It should be on the 41 VLAN. (i.e. 10.15.`41`.90)
 
-Open Powershell and enter:
+Open Powershell (because it's so much better than CMD, Ben) and enter:
 `nslookup crestron-<collection_code>`
 
 ## Check Cisco Router IP 
